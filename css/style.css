@@ -7,6 +7,10 @@
 a{
 	text-decoration: none;
 }
+body{
+	font-family: 'Roboto', sans-serif;
+
+}
 
 .container{
 	width: 1140px;
@@ -22,13 +26,16 @@ a{
 	font-family: Lato;
 
 }
+.primiry__btn:hover{
+	background-color: #58B3F2;
+}
 .body-img{
 	width: 100%;
 	background-image: url("../img/PlbRTTw8AN 1.png");
 	background-size: cover;
 	height: 100vh;
 }
-.navbar>.container{
+.navbar{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -75,10 +82,33 @@ line-height: 24px;
 color: #FFFFFF;
 opacity: 0.6;
 }
+.next__link{
+	display: flex;
+}
 .next__btn{
 border: 1px solid #38B3F1;
 box-sizing: border-box;
 opacity: 0.2;
 margin-left: 40px;
+opacity: 0.;
 
+}
+
+
+
+.book{
+	padding-top: 100px;
+}
+.book__header{
+	width: 50%;
+}
+.book__header__title{
+
+	font-size: 40px;
+	font-weight: 700;
+}
+.book__header__text{
+	width: 80%;
+	padding: 20px 0;
+	font-size: 15px;
 }
