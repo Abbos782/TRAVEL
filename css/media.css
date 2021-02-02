@@ -78,18 +78,20 @@
 	padding:  20px 0;
 }
 .next__content{
+	margin: 0 auto;
 	width: 100%;
 	text-align: center;
 	justify-content: center;
 }
 .next__title{
+	margin: 0 auto;
 	color: #000;
 	justify-content: center;
 	font-size: 50px;
 }
 .next__text{
 	width: 80%;
-	
+	margin: 0 auto;
 	color: #000;
 	font-size: 15px;
 }

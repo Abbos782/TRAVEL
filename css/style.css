@@ -66,11 +66,11 @@ body{
 	font-size: 20px;
 }
 .next__content{
-	width: 40%;
+	width: 60%;
 	padding-top: 100px;
 }
 .next__title{
-	font-size: 55px;
+	font-size: 70px;
 	color: #fff;
 	font-family: Lato;
 	line-height: 1.5;
@@ -268,18 +268,27 @@ color: #000000;
 	width: 45%;
 }
 .millennium__body{
-	padding-bottom: 70px;
-	display: flex;
-	justify-content:space-between;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
 }
 .millennium__body__photo{
-	width: 32%;
+	flex: 32%;
+	max-width: 32%;
 	justify-content: column;
+	padding: 0 4px;
+
 
 }
-.millennium__body__img{
+.millennium__body__photo img{
+ margin-top: 8px;
+    vertical-align: middle;
 	width: 100%;
-
+}
+.millennium__body__img{
+	 margin-top: 8px;
+    vertical-align: middle;
+	width: 100%;
 }
 .agency{
 	background-image: url('../img/Rectangle 151.png');
