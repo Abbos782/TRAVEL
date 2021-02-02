@@ -91,10 +91,14 @@ opacity: 0.6;
 .next__btn{
 border: 1px solid #38B3F1;
 box-sizing: border-box;
-opacity: 0.2;
+color:#38B3F1; 
 margin-left: 40px;
+background-color:transparent;
 
 
+}
+.next__btn:hover{
+	color: #fff;
 }
 
 
@@ -144,9 +148,10 @@ margin-left: 40px;
 .book__body__img-left1__btn,.book__body__img-left2__btn,.book__body__img-rithy__btn{
 	padding: 10px 20px;
 	position: absolute;
-	color: #fdd;
+	color: #fff;
 	z-index: 5;
 	border:1px solid #fff;
+	background-color: transparent;
 }
 .book__body__img-left1__btn{
 	top: 20%;
@@ -222,6 +227,7 @@ padding-bottom: 30px;
 	align-items: center;
 
 
+
 }
 .awesome__content__day{
 	width: 30%;
@@ -242,3 +248,65 @@ padding-bottom: 30px;
 .awesome__body__img{
 	width: 100%;
 }
+
+
+.millennium__header{
+	padding: 10% 0;
+	text-align: center;
+
+}
+.millennium__header__title{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 90px;
+color: #000000;
+}
+.millennium__header__text{
+	margin: 0 auto;
+	width: 45%;
+}
+.millennium__body{
+	padding-bottom: 70px;
+	display: flex;
+	justify-content:space-between;
+}
+.millennium__body__photo{
+	width: 32%;
+	justify-content: column;
+
+}
+.millennium__body__img{
+	width: 100%;
+
+}
+.agency{
+	background-image: url('../img/Rectangle 151.png');
+	background-size: cover;
+}
+.agency>.container{
+	padding: 70px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.agency__photo{
+	width: 45%;
+}
+.agency__img{
+	width: 100%;
+}
+.agency__content{
+	padding-top: 150px;
+	width: 45%;
+}
+.agency__title{
+
+	font-size: 350%;
+	line-height: 2;
+	padding-bottom: 50px;
+
+}
+
+
