@@ -11,7 +11,10 @@ body{
 	font-family: 'Roboto', sans-serif;
 
 }
-
+.container-img{
+	width: 100%;
+	margin: 0 auto;
+}
 .container{
 	width: 1140px;
 	margin: 0 auto;
@@ -98,12 +101,13 @@ margin-left: 40px;
 
 .book{
 	padding: 100px 0;
+
 }
 .book__header{
 	width: 50%;
 }
 .book__header__title{
-
+ 
 	font-size: 40px;
 	font-weight: 700;
 }
@@ -143,34 +147,98 @@ margin-left: 40px;
 	color: #fdd;
 	z-index: 5;
 	border:1px solid #fff;
-	
 }
-.millennium__header{
-	  padding-top: 100px;
-	  display: block;
-	  justify-content: center;
+.book__body__img-left1__btn{
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%);
 }
-.millennium__header__title{
+.book__body__img-left2__btn{
+	bottom: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.book__body__img-rithy__btn{
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.awesome{
+	background-image: url("../img/Rectangle 150.png");
+	width: 100%;
+	background-size: cover;
+}
+.awesome__header{
+	padding-top: 20%;
+	text-align: center;
+
+}
+.awesome__header__title{
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 50px;
 line-height: 90px;
 color: #000000;
-text-align: center;
+
 }
-.millennium__header__text{
-	width: 50%;
+.awesome__text{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+}
+
+.awesome__hrader__text{
 	margin: 0 auto;
+	width: 50%;
+	justify-content: center;
 }
-.millennium__body{
+.awesome__body{
+	padding: 50px 0;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 }
-.millennium__body__photo{
+.awesome__content{
+
+	width: 40%;
+}
+.awesome__content__title{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 24px;
+color: #000000;
+padding-bottom: 30px;
+}
+.awesome__content__link{
+	padding-top: 30px;
+	display: flex;
+	align-items: center;
+
+
+}
+.awesome__content__day{
 	width: 30%;
 }
-.millennium__body__img{
+.awesome__body__photo{
+	width: 40%;
+}
+.awesome__body__btn{
+	width: 40%;
+}
+.awesome__content__span{
+	font-size: 20px;
+	font-weight: 600;
+}
+.awesome__body__btn{
+	background: #427FF7;
+}
+.awesome__body__img{
 	width: 100%;
 }
