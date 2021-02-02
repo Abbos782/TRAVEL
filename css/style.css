@@ -143,4 +143,34 @@ margin-left: 40px;
 	color: #fdd;
 	z-index: 5;
 	border:1px solid #fff;
+	
+}
+.millennium__header{
+	  padding-top: 100px;
+	  display: block;
+	  justify-content: center;
+}
+.millennium__header__title{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 90px;
+color: #000000;
+text-align: center;
+}
+.millennium__header__text{
+	width: 50%;
+	margin: 0 auto;
+}
+.millennium__body{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.millennium__body__photo{
+	width: 30%;
+}
+.millennium__body__img{
+	width: 100%;
 }
