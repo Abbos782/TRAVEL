@@ -49,6 +49,30 @@
 .agency__title{
 	font-size: 35px;
 }
+.travel>.container{
+	display:block;
+	justify-content: column;
+	
+}
+.travel__photo{
+	padding-top: 20px;
+	text-align: center;
+	width: 100%;
+}
+.travel__photo img{
+	  width: 100%;
+	transform: none;
+}
+.travel__content{
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+.travel{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
 }
 @media(max-width: 740px){
 	.container{
@@ -210,6 +234,19 @@ width: 100%;
 .agency__photo{
 	width: 100%;
 	padding-bottom:0px;
+}
+.footer>.container{
+	display: flex;
+	justify-content: column;
+	flex-wrap: wrap;
+	
+}
+.footer__column{
+
+	width: 40%;
+	flex-wrap: wrap;
+	text-align: center;
+	padding: 20px 0;
 }
 
 

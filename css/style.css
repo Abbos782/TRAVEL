@@ -64,6 +64,11 @@ body{
 .nav__item a{
 	color: #fff;
 	font-size: 20px;
+;
+}
+.nav__item a:hover{
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+		background-color: transparent
 }
 .next__content{
 	width: 60%;
@@ -271,6 +276,7 @@ color: #000000;
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
+  
 }
 .millennium__body__photo{
 	flex: 32%;
@@ -279,6 +285,14 @@ color: #000000;
 	padding: 0 4px;
 
 
+
+
+}
+
+.millennium__body__img img{
+	width: 100%;
+	height: 100%;
+	align-items: baseline;
 }
 .millennium__body__photo img{
  margin-top: 8px;
@@ -317,5 +331,98 @@ color: #000000;
 	padding-bottom: 50px;
 
 }
+.travel{
+	padding-top: 20px;
+	padding-bottom: 100px;
+}
+.travel>.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.travel__photo{
+	width: 50%;
+}
+.travel__photo img{
+	width: 150%;
+	transform: translateX(-35%);
+}
+.travel__content{
+	width: 45%;
+}
+.travel__content__title{
+
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 1.5;
+color: #000000;
+}
+.travel__content__text{
+	padding: 20px 0;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+opacity: 0.6;
+}
+.travel__content__btn{
+   background: #427FF7;
+}
+.footer{
+	padding: 100px 0;
+	background: #000411;
+	color: #fff;
+}
+
+.footer>.container{
+	display: flex;
+	justify-content: space-around;
+	
+}
+.footer__column{
+	width: 20%;
+}
+.footer__column__title{
+font-size: 30px;
+padding-bottom: 20px;
+}
+.footer__column__text{
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 26px;
+      letter-spacing: 0.05em;
+      color: #FFFFFF;
+      opacity: 0.7;
+      padding-bottom: 20px;
+}
+.footer__column__link{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.footer__column__link:hover{
+	color:blue;
+}
+.footer__column__list{
+	padding-top: 20px;
+}
+.footer__column__item a{
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 26px;
+letter-spacing: 0.05em;
+
+color: rgba(255,255,255,2);
+
+}
+.footer__column__item a:hover{
+	color:red;
+	}
 
 
